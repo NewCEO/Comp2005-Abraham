@@ -1,0 +1,32 @@
+{
+  "port": 8089,
+  "mappings": [
+    {
+      "request": {
+        "method": "GET",
+        "urlPattern": "/COMP2005/api/allocations\\?employeeId=123"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "allocation_response.json"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "urlPattern": "/COMP2005/api/admissions\\?id=1"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "admission_response.json"
+      }
+    }
+  ]
+
+}
